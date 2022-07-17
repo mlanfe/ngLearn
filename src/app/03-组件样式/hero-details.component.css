@@ -4,6 +4,7 @@
 
 :host {
   font-style: italic;
+  color: red;
 }
 
 :host {
@@ -20,4 +21,10 @@
 
 :host ::ng-deep h3 {
   font-style: italic;
+}
+
+
+::ng-deep .tst3{
+/* :host ::ng-deep .tst3{ */
+  color: lightsalmon;
 }

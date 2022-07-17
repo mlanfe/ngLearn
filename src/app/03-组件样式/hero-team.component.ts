@@ -5,6 +5,7 @@ import { Hero } from './hero';
   selector: 'app-hero-team',
   template: ` <!-- We must use a relative URL so that the AOT compiler can find the stylesheet -->
     <link rel="stylesheet" href="../../assets/hero-team.component.css" />
+    <div class="tst3">测试ng-deep</div>
     <h3>Team</h3>
     <ul>
       <li *ngFor="let member of hero.team">

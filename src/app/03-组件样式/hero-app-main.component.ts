@@ -6,6 +6,7 @@ import { Hero } from './hero';
   selector: 'app-hero-main',
   template: `
     <app-quest-summary></app-quest-summary>
+    <div class="tst3">测试::deep</div>
     <app-hero-details [hero]="hero" [class.active]="hero.active">
       <app-hero-controls [hero]="hero"></app-hero-controls>
     </app-hero-details>
